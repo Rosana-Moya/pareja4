@@ -7,7 +7,6 @@ html {
 
 body {
     max-width: 480px;
-    background-color: pink;
     margin: 0;
     
 }
@@ -42,7 +41,9 @@ header {
     }
 .principal {
     background-color:  rgb(54, 152, 190);
-   margin-top: 50px;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   margin-bottom: 50px;
    
 }
 article {
