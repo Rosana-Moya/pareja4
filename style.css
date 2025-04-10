@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    max-width: 480px;
+   
     margin: 0;
     
 }
@@ -40,7 +40,7 @@ header {
         
     }
 .principal {
-    background-color:  rgb(54, 152, 190);
+     background-color:  rgb(54, 152, 190); 
    padding-top: 10px;
    padding-bottom: 5px;
    margin-bottom: 50px;
@@ -117,4 +117,22 @@ footer {
     font-size: 10px;
     gap: 20px;
     margin-left: 20px;
+}
+@media all and (min-width: 480px) {
+    header {
+      
+        background-color: black;
+        
+    }
+    .boton{
+        width: 20%;
+    }
+    .principal {
+        background-image: url(./imagen/chica.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 200px;
+    }
+     ::selection
 }
